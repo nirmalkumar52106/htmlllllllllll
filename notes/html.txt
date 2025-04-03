@@ -1,0 +1,179 @@
+date=> 09-08-2023
+html=>hyper text markup language
+use for make web structure and content
+extension=> .html
+sytnx=>
+
+<html>
+<head>
+<title>nbhfbh</title>
+</head>
+<body>
+
+</body>
+
+</html>
+
+html tag=> use for define main body and main head tag in a block also use for support browser extension code manuplate to browser
+head tag=>head tag use for define head title and logo also use for define /excute external links in our html file
+title =>use for excute title head content
+body=>use for excute web content in our web page
+
+1.tags=>
+tags use define value in a block code 
+there are two types of tag=>1.container tag 2.empty tag
+1.container tag=>container tag are those tag who are open and close 
+e.g 
+<h1> helllo </h1>
+2.empty=>empty tags are those tags who are self closing
+e.g <br> use for line break
+
+
+1.container tags=>
+1.h1-h6=>use for define heading
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
+difference of size 
+2.<p> </p> use for define long text and paragraph cant count whitespace
+3.<pre> </pre> also use ...... but pre tag count whitespace
+ text-formatting tags=>  
+1.<b></b> use for text normal to in bold form
+2.strong=>
+3.<small> </small> use for text in small form
+4. <strike> <strike> strike tag use for define text in delete form 
+5.<del> </del>
+6.<u> </u> use for text decorate normal to underline
+7. <ins> </ins>
+8. <marquee> </marquee> use for text slide left to right ,right to left ,top to bottom ,bottom to top
+attributes=> when we use functionality for any tag then we use ayttributes attribute use in open code every tag has diffrent attributes
+attributes of marquee tags=> 1. behavior= use for text how to slide values=>
+slide, smooth, alternate
+2.direction=> for use define direction
+3. scrollamount="7"
+
+date=> 11-08-2023
+9.<mark></mark> for use highlight any content its bydeafult color is yellow
+10.<sub> </sub> => substring tag use for under power
+11.<sup> </sup> => superstring tag use for upper power
+
+empty tag=>
+empty tag are those tag who are self closing there no need to open and close.
+
+e.g 1. <br> br tag use for line break start a new line.
+2. <hr> hr tag use for horizontal line 
+3. <img> img tag use for display images in our web pages=>
+attributes of img tag=> 
+a. src=> src attribute use for execute current path of image .we use path in a string
+b.alt=> alternate attribute use for define image content .this content run when image path is wrong and when our network is slow
+c. width for use define width in px(pixel)
+d.height => px 
+
+empty tag end....................................................................................
+
+topic 2. 
+links=> links use with anchor tag <a> <a/>
+attributes=>
+anchor tag attributes=>
+a. href=> for use define path where we render after click on a content
+b.target ="_blank" for use after click open this path in a  new window
+
+
+topic 3. <li> </li> =>for use create list in block element and inline elements.
+li tag use with ul and ol. ul and ol tag is a main tag of li for define ordered and unordered list.
+there are two types of list=> 
+1. unordered list= <ul> </ul>
+
+2.ordered list = <ol> </ol> 
+<ol> there are many types of series which we can use in ol with li=>
+series=> attributes of ol tag=> 1. type => for use start series with different value=>
+a. 1 for use numerical value (bydefault)
+b. a for use small alphabetic value
+c. A for use capital alphanbetic value
+d. I for use capital roman number 
+e. i for use small roman number
+
+topic 4.
+table=> table use in row and column
+<table> </table>
+table tags attributes=> a. bgcolor=>use for define background color for table
+b.cellspacing="px"=>use for take space outside of border
+c.cellpadding= "px"=> use for take space inside of border
+d.border=> for use define border for every row and column => px
+
+1.<tr> </tr>=> use for define table in row
+2.<th> </th>=> use for define table heading
+3.<td> </td> => use for define table data
+attributes of tr,td,th=>
+a. rowspan=> for merge multiples row in a one column
+b.colspan=>for merge multiples column in a one row
+
+
+topic 5. 
+form => form use for data manuplating from backend to frontened , frontened to backend with user input
+<form> </form>
+attributes of form=> a. action="path" use for define path when we submit our form then redirect on this path that we define in action attribute.
+b. method=> GET,POST get use for take data from backend to forntend and post methos is use for give data frontend to backened
+
+tag of form=>
+<button></button> => for use create a button for submit our form
+<input> => use for take value form user 
+attributes of input=> a. placeholder="enter your name" => use for define text content inside of input.
+required for use when we blank value of any input then its work
+date= 17-08-2023
+b.type=1. email ,password, submit, reset
+file=> for use choose a file from our file manager
+date=> for use define a calender for choose date we should have.
+checkbox=> for use define a square box for check mark this box
+radio=> for use define a circle checkbox for mark like gender
+range=> for select a value form a check line
+number=> for use define value in only numerical value
+text=>for use define text in input value
+
+date= 18-08-2023
+attributes of input=>
+maxlength=> set limit of input value as a maximum maxlength define in numerical value as a string.
+minlength= set limit of input value as a minimum minlength define in numerical value as a string.
+
+<label> </label>=>
+lable tag use for define outside content of input.
+attributes of label tag=> a. for => for attribute execute value same as input value.
+
+for use a box and we can create a content in this box with using of tag=>
+<fieldset> 
+<legend> </legend>
+</fieldset>
+
+<summary> </summary> summary tag use for define a dropdown content with a single word
+for use this single word we use <details> </details>
+
+<select> </select> => select tag use for execute a dropdown list
+<option> </option> => define a content for dropdown list.
+attribute of option tag=> a. selected=> for select any  content at the top of dropdown.
+
+
+
+
+
+
+assigment day.....
+Assigment
+Create a login form and when click on submit button page render on home page. 
+In home page create a unordered list with link anchor tag every link has their path and create li with naming home, about, services, contact and blog every page should have a proper content . 
+This project complete till tomorrow
+
+
+
+
+
+
+
+
+
+
+
+
+
